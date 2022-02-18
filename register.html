@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+
+    <style>
+        input:checked~.radio {
+            color: white;
+            background-color: green;
+        }
+    </style>
+
+</head>
+<script>
+    function order() {
+        swal("your registration has been done..!", "Here's some payment methods after that you will get order", "success", {
+            button: "Get Order",
+
+        });
+    }
+</script>
+
+<body>
+
+   
+
+    <header class="text-gray-600 body-font fixed">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+                <span class="ml-3 text-xl">Master Mind Tutor</span>
+            </a>
+
+        </div>
+    </header>
+
+    <div class="relative min-h-screen flex items-center justify-center bg-center bg-white-50 py-10 px-4 sm:px-6 lg:px-6 bg-white-500 bg-no-repeat bg-cover relative items-center">
+        <div class="absolute bg-black opacity-60 inset-0 z-0 "></div>
+
+        <div class="max-w-md w-screen space-y-8 p-6 bg-white rounded-lg shadow-lg z-10 ">
+            <div class="grid gap-8 grid-cols-1">
+                <div class="flex flex-col">
+                   
+                    <div class="mt-5 ">
+                        <div class="form">
+                        <!--form-->
+                            <form action="register.php" method='POST'>
+
+
+                            
+                                 <div class="flex flex-col sm:flex-row items-center ">
+
+                        <h1 class="text-4lg font-bold text-center text-green-600 ">Create an Account</h1>
+
+                        <div class="m-6 bg-gray-200 rounded-sm">
+                            <div class="inline-flex rounded-lg">
+                                <input type="radio" name="room_type" id="roomPrivate" value="teacher" checked hidden/>
+                                <label for="roomPrivate" class="radio text-center self-center py-2 px-4 rounded-lg cursor-pointer hover:opacity-75">Teacher</label>
+                            </div>
+                            <div class="inline-flex rounded-lg">
+                                <input type="radio" name="room_type" id="roomPublic" value="Student" hidden/>
+                                <label for="roomPublic" class="radio text-center self-center py-2 px-4 rounded-lg cursor-pointer hover:opacity-75">Student</label>
+                            </div>
+                        </div>
+
+
+                        <div class="w-full sm:w-auto sm:ml-auto mt-3 sm:mt-0 "></div>
+                    </div>       
+
+
+                                <div class="md:flex flex-row md:space-x-4 w-full text-xs ">
+
+                                    <div class="f-outline px-2 relative border rounded-lg focus-within:border-green-500 ">
+                                        <input type="text" name="name" placeholder=" " required="" class="block p-2 w-full text-lg appearance-none focus:outline-none bg-transparent " />
+                                        <label for="name" class="absolute ml-5 top-0 text-lg text-gray-700 bg-white mt-2 -z-1 duration-300 origin-0 ">Full Name</label>
+                                    </div>
+
+                                    <div class="f-outline px-2 relative border rounded-lg focus-within:border-green-500 ">
+                                        <input type="text" name="l_name" placeholder=" " required="" class="block p-2 w-full text-lg appearance-none focus:outline-none bg-transparent " />
+                                        <label for="name" class="absolute ml-5 top-0 text-lg text-gray-700 bg-white mt-2 -z-1 duration-300 origin-0 ">Last Name</label>
+                                    </div>
+                                </div>
+
+                                <div class="md:flex flex-row md:space-x-4 w-full text-xs mt-5 ">
+
+                                    <div class="f-outline px-2 relative border rounded-lg focus-within:border-green-500 ">
+                                        <input type="email" name="email" placeholder=" " required="" class="block p-2 w-full text-lg appearance-none focus:outline-none bg-transparent " />
+                                        <label for="email" class="absolute ml-5 top-0 text-lg text-gray-700 bg-white mt-2 -z-1 duration-300 origin-0 ">Email</label>
+                                    </div>
+
+                                    <div class="f-outline px-2 relative border rounded-lg focus-within:border-green-500 ">
+                                        <input type="number" name="contact" required="" placeholder=" " class="block p-2 w-full text-lg appearance-none focus:outline-none bg-transparent " />
+                                        <label for="contact" class="absolute ml-5 top-0 text-lg text-gray-700 bg-white mt-2 -z-1 duration-300 origin-0 ">Contact</label>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="md:flex flex-row md:space-x-6 text-xs mt-5 w-full">
+
+
+                                    <div class="f-outline px-2 relative border rounded-lg focus-within:border-green-500 w-full">
+                                        <input type="password" name="password" placeholder=" " required="" class="block p-2 w-full text-lg appearance-none focus:outline-none bg-transparent " />
+                                        <label for="password" class="absolute ml-5 top-0 text-lg text-gray-700 bg-white mt-2 -z-1 duration-300 origin-0 ">Password</label>
+                                    </div>
+                                </div>
+                                <div class="md:flex flex-row md:space-x-6 text-xs mt-5 w-full">
+
+                                    <div class="f-outline px-2 relative border rounded-lg focus-within:border-green-500 w-full">
+                                        <input type="password" name="re_password" required="" placeholder=" " class="block p-2 w-full text-lg appearance-none focus:outline-none bg-transparent " />
+                                        <label for="password" class="absolute ml-5 top-0 text-lg text-gray-700 bg-white mt-2 -z-1 duration-300 origin-0 ">Re-enter password</label>
+                                    </div>
+
+                                </div>
+                                <div class="flex items-center flex items-center justify-start mt-4 ml-2">
+                                    <b>already have an Account ?</b>
+                                    <a class="underline text-sm text-green-600 m-2 hover:text-gray-900 " href="login.html">
+                                Login
+                                </a>
+                                </div>
+
+                                <div class="mt-5 text-right md:space-x-3 md:block flex flex-col-reverse ">
+                                    <button type="submit" class="mb-2 md:mb-0 bg-white px-5 py-2 text-sm shadow-sm font-medium tracking-wider border text-gray-600 rounded-full hover:shadow-lg hover:bg-gray-100 "> Cancel </button>
+                                    <button type="submit" class="mb-2 md:mb-0 bg-green-400 px-5 py-2 text-sm shadow-sm font-medium tracking-wider text-white rounded-full hover:shadow-lg hover:bg-green-500 ">Save</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <style>
+            .f-outline input:focus-within~label,
+            .f-outline input:not(:placeholder-shown)~label {
+                transform: translateY(-1.5rem) translatex(-1rem) scaleX(0.80) scaleY(0.80);
+            }
+        </style>
+</body>
+
+
+
+</html>
