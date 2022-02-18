@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <style>
+        /*
+		You may need this for responsive background
+		header {
+			background: url('bg-425.jpg');
+		}
+
+		@media only screen and (min-width:640px) {
+			header {
+				background: url('bg-640.jpg');
+			}
+		}
+
+		@media only screen and (min-width:768px) {
+			header {
+				background: url('bg-768.jpg');
+			}
+		}
+
+		@media only screen and (min-width:1024px) {
+			header {
+				background: url('bg-1024.jpg');
+			}
+		}
+
+		@media only screen and (min-width:1025px) {
+			header {
+				background: url('bg-max.jpg');
+			}
+		} */
+        /* Default background by https://www.pexels.com/@knownasovan */
+        
+        #up {
+            background: url('./imges/header-tv.jpg');
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="ml-16 flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24"> -->
+                <img src="./imges/logo.png" alt="">
+
+                <!-- <span class="ml-3 text-xl">Tailblocks</span> -->
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <!-- <a class="mr-5 hover:text-gray-900">First Link</a> -->
+                <!-- <a class="mr-5 hover:text-gray-900">Second Link</a> -->
+                <!-- <a class="mr-5 hover:text-gray-900">Third Link</a> -->
+                <!-- <a class="mr-5 hover:text-gray-900">Fourth Link</a> -->
+            </nav>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <ul>
+                    <li class="text-sm">
+                        ORDER ONLINE OR CALL NOW
+                    </li>
+                    <li class="text-lg">
+                        <b>
+                        1-866-288-3371
+                       </b>
+                        <img class="inline-block rounded-lg" src="./imges/skype.png" alt="">
+                    </li>
+                    <li>
+                        Call us anytime. We are open 24/7.
+                    </li>
+                </ul>
+            </nav>
+            <!-- <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path> 
+      </svg>
+    </button> -->
+        </div>
+    </header>
+
+
+
+    <header>
+
+
+
+
+        <!-- nav start -->
+
+        <div class="px-20 lg:mx-2 xl:mx-0 menu  " style="background-color: #02a9e0;">
+            <div class="">
+                <nav class="flex items-center justify-between flex-wrap ">
+                    <div class="flex items-center flex-no-shrink text-white mr-6 h-10">
+                        <img src="https://nemtroutes.com/img/logo/logo.png" alt="" class="h-12 xl:h-20  mr-2  ">
+                        <!-- <span class="text-gray-700 mt-2 hover:text-indigo-400 font-black">
+                                            Yamsol llc
+                                        </span> -->
+
+                    </div>
+                    <div class="block lg:hidden">
+                        <button class="navbar-burger flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
+                            <svg class="fill-current h-6 w-6 text-gray-700" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>Menu</title>
+                                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="main-nav" class=" mt-1 w-full flex-grow lg:flex items-center lg:w-auto hidden ">
+                        <div class="text-sm lg:flex-grow mt-0 animated jackinthebox xl:mx-8 ">
+                            <a href="./index.html" class="mb-2 block lg:inline-block text-md font-bold  text-white  sm:hover:border-indigo-400   mx-2 focus:text-blue-500  p-1 hover:bg-gray-500 sm:hover:bg-parpal-600 rounded ">
+                                <i class="fas fa-home text-lg"></i>
+                            </a>
+                            <a href="./spectrumBundles.html" class=" block lg:inline-block text-md font-bold  text-white  sm:hover:border-indigo-400   mx-2 focus:text-blue-500  p-1 hover:bg-gray-500 sm:hover:bg-parpal-600 rounded">
+                                Spectrum Bundles
+                            </a>
+                            <a href="./spectrumDeals.html" class="block lg:inline-block text-md font-bold  text-white  sm:hover:border-indigo-400   mx-2 focus:text-blue-500  p-1 hover:bg-gray-500 sm:hover:bg-parpal-600 rounded">
+                                Spectrum Deals
+                            </a>
+                            <a href="./spectrumTv.html" class="block lg:inline-block text-md font-bold  text-white  sm:hover:border-indigo-400   mx-2 focus:text-blue-500  p-1 hover:bg-gray-500 sm:hover:bg-parpal-600 rounded">
+                                Spectrum Tv
+                            </a>
+                            <a href="./spectrumInternet.html" class="block lg:inline-block text-md font-bold  text-white  sm:hover:border-indigo-400   mx-2 focus:text-blue-500  p-1 hover:bg-gray-500 sm:hover:bg-parpal-600 rounded">
+                                Spectrum Internet
+                            </a>
+                            <!-- <a href="#home" class="block lg:inline-block text-md font-bold  text-white  sm:hover:border-indigo-400   mx-2 focus:text-blue-500  p-1 hover:bg-gray-500 sm:hover:bg-parpal-600 rounded">
+                                COMING SOON
+                            </a> -->
+                        </div>
+                        <div class="text-2xl my-1 mx-3">
+                            <img src="img/shopping.png" class="h-6" alt="">
+                        </div>
+
+
+
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+    <script>
+        // Navbar Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Get all "navbar-burger" elements
+            var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(function($el) {
+                    $el.addEventListener('click', function() {
+
+                        // Get the "main-nav" element
+                        var $target = document.getElementById('main-nav');
+
+                        // Toggle the class on "main-nav"
+                        $target.classList.toggle('hidden');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+    <!-- nav close -->
+
+    <!-- HERO START -->
+
+    <header id="up" class="bg-center bg-fixed bg-no-repeat bg-center bg-cover h-screen relative">
+        <!-- Overlay Background + Center Control -->
+        <div class="h-screen bg-opacity-50 bg-black flex items-center justify-center" style="background:rgba(0,0,0,0.5);">
+            <div class="mx-2 text-center">
+                <h1 class="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl">
+                    <span class="text-white">Spectacular .</span>
+                </h1>
+                <h2 class="text-gray-200 font-extrabold text-3xl xs:text-4xl md:text-5xl leading-tight">
+                    Deals from <span class="text-white">Spectrum</span>
+                </h2>
+                <div class="inline-flex">
+                    <button class="w-40 p-2 my-5 mx-2 bg-indigo-700 hover:bg-indigo-800 font-bold text-white rounded border-2 border-transparent hover:border-indigo-800 shadow-md transition duration-500 md:text-xl">Hire US!</button>
+                    <!-- <a href="#about"><button class="p-2 my-5 mx-2 bg-transparent border-2 bg-indigo-200 bg-opacity-75 hover:bg-opacity-100 border-indigo-700 rounded hover:border-indigo-800 font-bold text-indigo-800 shadow-md transition duration-500 md:text-lg">Learn More</button></a> -->
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- HEROO CLOSE -->
+
+    <!-- card start -->
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center " style="background-color: rgb(252, 250, 247);">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero" src="./imges/mc-tv-img-primary.png">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Spectrum Deals
+                    <br class="hidden lg:inline-block">
+                </h1>
+                <h1 class="mb-8 leading-relaxed text-blue-500 text-dark"><sup class="text-2xl mt-24">$</sup>
+                    <r class="text-6xl sm:text-6xl">44</r><span class="text-6xl sm:text-6xl">
+                        99 <br>
+                       
+                    </span>
+                    <e class="ml-20"> per month <br> <span class="ml-20">for 12 months*</span> </e>
+
+                </h1>
+                <div class="flex justify-center">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- card close -->
+
+
+    <!-- card2 start -->
+    <!--
+This is one of the HTML templates to be available on;
+https://www.pagesection.com/templates
+-->
+    <!--
+SVG/Icons credit to https://icons.getbootstrap.com
+-->
+    <section class="container mx-auto flex flex-wrap">
+        <div class="lg:w-1/3 md:w-1/2 w-full p-4 ">
+            <div class="p-8 rounded-xl border border-gray-200 bg-white">
+                <h1 class="text-center text-4xl"> TRIPLE PLAY SELECT</h1>
+                <br>
+                <span>
+                    <i class="fas fa-laptop text-dark text-blue-500 text-6xl text-center ml-5"></i>
+                    <i class="fas fa-tv-retro text-dark text-blue-500 text-6xl ml-10"></i>
+                    <i class="fad fa-mobile text-dark text-blue-500 text-6xl ml-10"></i>
+                </span>
+                <!-- <h4> Package Pricing (with border) </h4> -->
+                <br><br>
+                <h5 class="text-3xl font-bold py-2 text-gray-500"> 125+ <small class="text-lg">Channels</small></h5>
+                <p> <i class="fal fa-check"></i> FREE HD </p>
+                <p><i class="fal fa-check"></i> Sports, News, Movies & more</p>
+                <p><i class="fal fa-check"></i> On Demand </p>
+
+                <ul>
+                    <li class="text-center m-5">
+                        <img src="./imges/espn-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/hallmark-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/cnn-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/hgtv-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/ae-blue.png" class="inline-block h-5 w-10" alt="">
+                    </li>
+                </ul>
+
+
+                <div class="my-4 flex flex-col text-base items-center">
+                    <p class="flex items-center w-full ">From</p>
+                    <h5 class=" text-6xl   text-gray-500 w-full "><sup>$</sup>102<small class="text-lg ">.
+                       <sup class="text-2xl">97/mo</sup> </small></h5>
+                    <e class="ml-20 text-sm text-gray-500"> for 12 mos when bundled2</e>
+
+
+
+                    <button class="my-4 px-4 py-2 block w-full h-16 text-2xl font-bold text-white bg-blue-500 hover:bg-blue-700 rounded ">Order Now </button>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- 1 -->
+        <div class="lg:w-1/3 md:w-1/2 w-full p-4 ">
+            <div class="p-8 rounded-xl border border-gray-200 bg-white">
+                <h1 class="text-center text-4xl"> TRIPLE PLAY SELECT</h1>
+                <br>
+                <span>
+                    <i class="fas fa-laptop text-dark text-blue-500 text-6xl text-center ml-5"></i>
+                    <i class="fas fa-tv-retro text-dark text-blue-500 text-6xl ml-10"></i>
+                    <i class="fad fa-mobile text-dark text-blue-500 text-6xl ml-10"></i>
+                </span>
+                <!-- <h4> Package Pricing (with border) </h4> -->
+                <br><br>
+                <h5 class="text-3xl font-bold py-2 text-gray-500"> 125+ <small class="text-lg">Channels</small></h5>
+                <p> <i class="fal fa-check"></i> FREE HD </p>
+                <p><i class="fal fa-check"></i> Sports, News, Movies & more</p>
+                <p><i class="fal fa-check"></i> On Demand </p>
+
+                <ul>
+                    <li class="text-center m-5">
+                        <img src="./imges/espn-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/hallmark-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/cnn-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/hgtv-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/ae-blue.png" class="inline-block h-5 w-10" alt="">
+                    </li>
+                </ul>
+
+                <hr>
+                <div class="my-4 flex flex-col text-base items-center">
+                    <h5 class="flex items-center text-3xl font-bold   w-full "> 100 <small class="text-lg">Mpbs</small></h5>
+                    <p class=" w-full">
+                        (wireless speeds may vary)
+                    </p>
+                    <br>
+                    <p class="flex items-center w-full my-1">
+
+                        <i class="fal fa-check"></i> NO Data Caps
+                    </p>
+                    <p class="flex items-center w-full my-1">
+
+                        <i class="fal fa-check"></i>FREE Internet Modem
+                    </p>
+                    <p class="flex items-center w-full my-1">
+
+                        <i class="fal fa-check"></i>FREE Antivirus Software
+                    </p>
+
+                </div>
+
+                <div class="my-4 flex flex-col text-base items-center">
+                    <p class="flex items-center w-full ">From</p>
+                    <h5 class=" text-6xl   text-gray-500 w-full "><sup>$</sup>102<small class="text-lg ">.
+                       <sup class="text-2xl">97/mo</sup> </small></h5>
+                    <e class="ml-20 text-sm text-gray-500"> for 12 mos when bundled2</e>
+
+
+
+                    <button class="my-4 px-4 py-2 block w-full h-16 text-2xl font-bold text-white bg-blue-500 hover:bg-blue-700 rounded ">Order Now </button>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="lg:w-1/3 md:w-1/2 w-full p-4 ">
+            <div class="p-8 rounded-xl border border-gray-200 bg-white">
+                <h1 class="text-center text-4xl"> TRIPLE PLAY SELECT</h1>
+                <br>
+                <span>
+                    <i class="fas fa-laptop text-dark text-blue-500 text-6xl text-center ml-5"></i>
+                    <i class="fas fa-tv-retro text-dark text-blue-500 text-6xl ml-10"></i>
+                    <i class="fad fa-mobile text-dark text-blue-500 text-6xl ml-10"></i>
+                </span>
+                <!-- <h4> Package Pricing (with border) </h4> -->
+                <br><br>
+                <h5 class="text-3xl font-bold py-2 text-gray-500"> 125+ <small class="text-lg">Channels</small></h5>
+                <p> <i class="fal fa-check"></i> FREE HD </p>
+                <p><i class="fal fa-check"></i> Sports, News, Movies & more</p>
+                <p><i class="fal fa-check"></i> On Demand </p>
+
+                <ul>
+                    <li class="text-center m-5">
+                        <img src="./imges/espn-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/hallmark-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/cnn-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/hgtv-blue.png" class="inline-block h-5 w-10" alt="">
+                        <img src="./imges/ae-blue.png" class="inline-block h-5 w-10" alt="">
+                    </li>
+                </ul>
+
+                <hr>
+                <div class="my-4 flex flex-col text-base items-center">
+                    <h5 class="flex items-center text-3xl font-bold   w-full "> 100 <small class="text-lg">Mpbs</small></h5>
+                    <p class=" w-full">
+                        (wireless speeds may vary)
+                    </p>
+                    <br>
+                    <p class="flex items-center w-full my-1">
+
+                        <i class="fal fa-check"></i> NO Data Caps
+                    </p>
+                    <p class="flex items-center w-full my-1">
+
+                        <i class="fal fa-check"></i>FREE Internet Modem
+                    </p>
+                    <p class="flex items-center w-full my-1">
+
+                        <i class="fal fa-check"></i>FREE Antivirus Software
+                    </p>
+
+                </div>
+
+                <hr>
+                <div class="my-4 flex flex-col text-base items-center">
+                    <h5 class="flex items-center text-3xl font-bold   w-full "> Unlimited <small class="text-xl">Calling </small></h5>
+                    <br>
+                    <p class="flex items-center w-full my-1">
+
+                        <i class="fal fa-check mb-6 sm-mb-6"></i> Call the U.S., Canada, Mexico, Puerto Rico & more
+                    </p>
+                    <p class="flex items-center w-full my-1">
+
+                        <i class="fal fa-check"></i>Up to 28 popular home phone features
+
+                    </p>
+
+                </div>
+
+                <hr>
+                <div class="my-4 flex flex-col text-base items-center">
+                    <p class="flex items-center w-full ">From</p>
+                    <h5 class=" text-6xl   text-gray-500 w-full "><sup>$</sup>152<small class="text-lg ">.
+                       <sup class="text-2xl">97/mo</sup> </small></h5>
+                    <e class="ml-20 text-sm text-gray-500"> for 12 mos when bundled2</e>
+
+
+
+                    <button class="my-4 px-4 py-2 block w-full h-16 text-2xl font-bold text-white bg-blue-500 hover:bg-blue-700 rounded ">Order Now </button>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- 3 -->
+    </section>
+    <!-- card2 close -->
+
+    <!-- hero start -->
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero" src="./imges/mc-tv-img-1.png">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <p class="mb-8 leading-relaxed"> SPECTRUM SPECIALS .</p>
+
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Why switch
+                    <br class="hidden lg:inline-block">to Spectrum?
+                </h1>
+                <p class="mb-8 leading-relaxed">Spectrum offers the latest in Internet, TV, and Phone technology, with FREE HD, No Data Caps, and NO Contracts!
+                </p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-white bg-indigo-500 border-0 py-3 px-10 focus:outline-none hover:bg-indigo-600 rounded text-xl font-bold w-40 ">Button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font" style="background-color: rgb(240, 237, 232);">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Free HD
+                    <br class="hidden lg:inline-block">
+                </h1>
+                <p class="mb-8 leading-relaxed">pectrum TV® brings you Free HD, and more HD channels than any other provider. That means you’ll enjoy crystal clear, high definition entertainment, the way it was meant to be.</p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-white bg-indigo-500 w-90 border-0 py-3 px-10 focus:outline-none hover:bg-indigo-600 rounded text-xl font-bold">Ordere Now</button>
+                </div>
+                <div class="flex justify-center mt-5">
+                    <a href="#" class="text-blue-500 text-lg">Learn more about Spectrum TV <i class="fal fa-chevron-double-right"></i></a>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="./imges/mc-tv-img-2.png">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero" src="./imges/mc-tv-img-3.png">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">NO Data Caps
+                    <br class="hidden lg:inline-block">
+                </h1>
+                <p class="mb-8 leading-relaxed">You don’t deserve to be limited by data caps, and with Spectrum Internet® you’ll have the freedom to connect as much as you want. Switch to Spectrum high speed Internet today and you’ll never have to deal with data caps ever again.
+                </p>
+                <div class="flex justify-center">
+                    <!-- <button class="inline-flex text-white bg-indigo-500 w-90 border-0 py-3 px-10 focus:outline-none hover:bg-indigo-600 rounded text-xl font-bold">Ordere Now</button> -->
+                </div>
+                <div class="flex justify-center mt-5">
+                    <a href="#" class="text-blue-500 text-lg">Learn more about Spectrum TV <i class="fal fa-chevron-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-white body-font bg-gray-900">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Special Bundle Rate for
+                    <br class="hidden lg:inline-block">TV, Internet, and Home Phone
+                </h1>
+                <p class="mb-8 leading-relaxed">pectrum TV® brings you Free HD, and more HD channels than any other provider. That means you’ll enjoy crystal clear, high definition entertainment, the way it was meant to be.</p>
+                <div class="flex justify-center">
+                    <!-- <button class="inline-flex text-white bg-indigo-500 w-90 border-0 py-3 px-10 focus:outline-none hover:bg-indigo-600 rounded text-xl font-bold">Ordere Now</button> -->
+                </div>
+                <div class="flex justify-center mt-5">
+                    <a href="#" class="text-blue-500 text-lg">Learn more about Spectrum TV <i class="fal fa-chevron-double-right"></i></a>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="./imges/mc-tv-img-4.png">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero" src="./imges/mc-tv-img-5.png">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <!-- <p class="mb-8 leading-relaxed"> SPECTRUM SPECIALS .</p> -->
+
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">No Contracts
+                    <br class="hidden lg:inline-block">
+                </h1>
+                <p class="mb-8 leading-relaxed">Spectrum service is so good there’s no need to lock you into a contract. If you’re currently in a contract with another provider, we’ll buy it out up to $500◊. Never deal with contracts again.
+                </p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-white bg-indigo-500 border-0 py-3 px-10 focus:outline-none hover:bg-indigo-600 rounded text-xl font-bold w-90 ">SHOP SPECTRUMDEALS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="w-full flex h-50 bg-indigo-50 py-10 px-20 justify-between text-white" style="background-color: #00629b;">
+        <div class="w-full text-center text-4xl">
+            <h2 class="has-text-center has-text-color" style="color:#FFFFFF">Call Now <strong><a href="tel:866-929-0587" class="google-phone-number" data-gtm-vis-first-on-screen-32128787_32="1420858" data-gtm-vis-recent-on-screen-32128787_32="9563626" data-gtm-vis-total-visible-time-32128787_32="100" data-gtm-vis-has-fired-32128787_32="1"><span class="updater-qualform-phone-number "><span class="phone-number-text">866-929-0587</span></span></a> </strong>To
+                Order By Phone</h2>
+            <!-- <h1 class="text-2xl font-bold bg-white inline-block p-4 rounded-md text-gray-700 mb-4">Ready to get started?</h1> -->
+            <!-- <p class="w-2/3  font-semibold">Copyright © 2022 All Rights Reserved.</p>
+            <p class="w-2/3  font-semibold">SpectrumOffers.com is a Web site independently operated by Digital Globe Services, LLC.</p>
+            <p class="w-2/3  font-semibold">under agreement with Spectrum Communications.</p> -->
+
+
+            <!-- <button class="block bg-indigo-600 px-4 py-2 rounded-md text-white tracking-wide mt-4">Get started</button> -->
+        </div>
+
+        </div>
+    </footer>
+
+    <div class="container">
+        <section class="container elementor-section elementor-top-section elementor-element elementor-element-16a87a6 elementor-section-boxed elementor-section-height-default elementor-section-height-default " data-id="16a87a6 " data-element_type="section
+" style="font-size:15.55px; ">
+            <div class="elementor-container elementor-column-gap-default ">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-254a1ef " data-id="254a1ef " data-element_type="column ">
+                    <div class="elementor-widget-wrap elementor-element-populated ">
+                        <div class="elementor-element elementor-element-85ceb16 elementor-widget elementor-widget-text-editor " data-id="85ceb16 " data-element_type="widget " data-widget_type="text-editor.default ">
+                            <div class="elementor-widget-container ">
+                                <div class="xRef aem-GridColumn aem-GridColumn--default--12 aem-GridColumn-NoLeftPadding aem-GridColumn-NoRightPadding ">
+                                    <div class="content parsys ">
+                                        <div class="richtext ">
+                                            <div id="a6a8484f-d236-46ab-b3b5-f0f6be561a15 " class="pageLoadInitialize
+" data-ta-id="Text Editor " data-initializefunctionname="richTextInt " data-uuid="a6a8484f-d236-46ab-b3b5-f0f6be561a15 ">
+                                                <p class="disclaimer ">For 30-Day Money-Back Guarantee, visit spectrum.com/guarantee.
+                                                    <br class="hidden lg:inline-block ">
+                                                    <br class="hidden lg:inline-block ">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xRef aem-GridColumn aem-GridColumn--default--12 aem-GridColumn-NoLeftPadding aem-GridColumn-NoRightPadding ">
+                                    <div class="richtext ">
+                                        <div id="d7bbbf7d-8f9c-40b8-853a-94f8c2c2d607 " class="pageLoadInitialize
+" data-ta-id="Text Editor " data-initializefunctionname="richTextInt " data-uuid="d7bbbf7d-8f9c-40b8-853a-94f8c2c2d607 ">
+                                            <p class="disclaimer
+">* Limited time offer; subject to change; valid to qualified residential customers who have not subscribed to any services within the previous 30 days and who have no outstanding obligation to Charter. Spectrum
+                                                Internet® promotion price is $49.99/mo; standard rates apply after yr. 1. Taxes, fees and surcharges extra and subject to change during and after the promotional period; installation/network activation,
+                                                equipment and additional services are extra. General Terms: INTERNET: Speed based on wired connection and may vary by address. Wireless speeds may vary. Services subject to all applicable service terms and
+                                                conditions, subject to change. Services not available in all areas. Restrictions apply. Enter your address to determine availability.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xRef aem-GridColumn aem-GridColumn--default--12 aem-GridColumn-NoLeftPadding aem-GridColumn-NoRightPadding ">
+                                    <div class="richtext ">
+                                        <div id="20b58277-936b-4a84-809d-95c674a935fb " class="pageLoadInitialize " data-ta-id="Text Editor
+" data-initializefunctionname="richTextInt " data-uuid="20b58277-936b-4a84-809d-95c674a935fb ">
+                                            <p class="disclaimer ">
+
+                                                <br class="hidden lg:inline-block
+"> **Limited time offer; subject to change; valid to qualified residential customers who have not subscribed to any services within the previous 30 days and who have no outstanding obligation to Charter.
+                                                Spectrum TV® Select promotion price is $44.99/mo; standard rates apply after yr. 1. Spectrum Internet® promotion price is $44.99/mo; standard rates apply after yr. 1. Taxes, fees and surcharges (broadcast
+                                                surcharge up to $17.99/mo.) extra and subject to change during and after the promotional period; installation/network activation, equipment and additional services are extra. General Terms: INTERNET: Speed
+                                                based on wired connection and may vary by address. Wireless speeds may vary. TV: TV equipment required, charges may apply. Channel and HD programming availability based on level of service. Account credentials
+                                                may be required to stream some TV content online. Services subject to all applicable service terms and conditions, subject to change. Services not available in all areas. Restrictions apply. Enter your address
+                                                to determine availability.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xRef aem-GridColumn aem-GridColumn--default--12 aem-GridColumn-NoLeftPadding aem-GridColumn-NoRightPadding ">
+                                    <div class="richtext ">
+                                        <div id="08eb63c0-097d-434b-ae38-1a5a6574d928 " class="pageLoadInitialize " data-ta-id="Text Editor
+" data-initializefunctionname="richTextInt " data-uuid="08eb63c0-097d-434b-ae38-1a5a6574d928 ">
+                                            <p class="disclaimer ">
+                                                <br class="hidden lg:inline-block "> *Limited time offer; subject to change; valid to qualified residential customers who have not subscribed to any services within the previous 30 days and who have no outstanding
+                                                obligation to Charter. Spectrum Internet® promotion price is $44.99/mo; standard rates apply after yr 1. Spectrum TV® Select promotion price is $44.99/mo; standard rates apply after yr 1. Spectrum Voice®:
+                                                Price is $12.99/mo when bundled. Taxes, fees and surcharges (broadcast surcharge up to $17.99/mo) extra and subject to change during and after the promotional period; installation/network activation, equipment
+                                                and additional services are extra. General Terms: INTERNET: Speed based on wired connection and may vary by address. Wireless speeds may vary. TV: TV equipment required, charges may apply. Channel and HD
+                                                programming availability based on level of service. Account credentials may be required to stream some TV content online. HOME PHONE: Unlimited calling includes calls within the U.S., Canada, Mexico, Puerto
+                                                Rico, Guam, the Virgin Islands and more. Services subject to all applicable service terms and conditions, subject to change. Services not available in all areas. Restrictions apply. Enter your address to
+                                                determine availability.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- hero close -->
+    <style>
+        .chat-services {
+            transition: .5s;
+            max-height: 0;
+        }
+        
+        .chat-services.expand {
+            max-height: 350px;
+        }
+        
+        .message {
+            max-width: 250px;
+        }
+        
+        .chat-modal {
+            transition: .5s;
+            opacity: 0;
+            transform: translateX(500px);
+        }
+        
+        .chat-modal.show {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+        @keyframes animateModal {
+            from {
+                transform: translateX(200px) opacity(0);
+            }
+            to {
+                transform: translateX(0) opacity(1);
+            }
+        }
+    </style>
+
+    <div class="fixed bottom-0 right-0 flex flex-col items-end ml-6 w-full">
+        <div class="chat-modal show  mr-5 flex flex-col mb-5 shadow-lg sm:w-1/2 md:w-1/3 lg:w-1/4">
+            <!-- close button -->
+            <div class="close-chat bg-red-500 hover:bg-red-600 text-white mb-1 w-10 flex justify-center items-center px-2 py-1 rounded self-end cursor-pointer">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z"/>
+              <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z"/>
+            </svg>
+            </div>
+            <!-- admin profile -->
+            <div class="flex justify-between items-center text-white p-2 bg-green-500 border shadow-lg mr-5 w-full">
+                <div class="flex items-center">
+                    <img src="https://f0.pngfuel.com/png/136/22/profile-icon-illustration-user-profile-computer-icons-girl-customer-avatar-png-clip-art-thumbnail.png" alt="picture" class="rounded-full w-8 h-8 mr-1">
+                    <h2 class="font-semibold tracking-wider">HartDev</h2>
+                </div>
+                <div class="flex items-center justify-center">
+                    <small class="mr-1">online</small>
+                    <div class="rounded-full w-2 h-2 bg-white"></div>
+                </div>
+            </div>
+            <!-- chats -->
+            <div class="flex flex-col bg-gray-200 px-2 chat-services expand overflow-auto">
+                <div class="chat bg-white text-gray-700 p-2 self-start my-2 rounded-md shadow mr-3">
+                    apa ada yang bisa saya bantu ?
+                </div>
+                <div class="message bg-green-500 text-white p-2 self-end my-2 rounded-md shadow ml-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, ratione!
+                </div>
+                <div class="message bg-green-500 text-white p-2 self-end my-2 rounded-md shadow ml-3">
+                    Lorem, ipsum.
+                </div>
+                <div class="message bg-white text-gray-700 p-2 self-start my-2 rounded-md shadow mr-3">
+                    Lorem ipsum dolor sit amet.
+                </div>
+                <div class="message bg-green-500 text-white p-2 self-end my-2 rounded-md shadow ml-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quod.
+                </div>
+                <div class="message bg-white text-gray-700 p-2 self-start my-2 rounded-md shadow mr-3">
+                    Lorem, ipsum dolor.
+                </div>
+
+            </div>
+            <!-- send message -->
+            <div class="relative bg-white">
+                <input type="text" name="message" placeholder="ketik pesan anda" class="pl-4 pr-16 py-2 border border-green-500 focus:outline-none w-full">
+                <button class="absolute right-0 bottom-0 text-green-600 bg-white  hover:text-green-500 m-1 px-3 py-1 w-auto transistion-color duration-100 focus:outline-none">Send</button>
+            </div>
+        </div>
+        <div class="show-chat hidden mx-10 mb-6 mt-4 text-green-500 hover:text-green-600 flex justify-center items-center cursor-pointer ">
+            <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-chat-text-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z"/>
+          </svg>
+        </div>
+    </div>
+
+    <script>
+        const chatModal = document.querySelector('.chat-modal');
+        const chatServices = document.querySelector('.chat-services');
+
+        const showChat = document.querySelector('.show-chat');
+        const closeChat = document.querySelector('.close-chat');
+
+        showChat.addEventListener('click', function() {
+            chatModal.classList.add('show')
+            showChat.classList.add('hidden')
+            setTimeout(() => {
+                chatServices.classList.add('expand')
+            }, 500);
+        });
+        closeChat.addEventListener('click', function() {
+            setTimeout(() => {
+                showChat.classList.remove('hidden')
+            }, 820);
+            chatServices.classList.remove('expand')
+            setTimeout(() => {
+                chatModal.classList.remove('show')
+            }, 500);
+        });
+    </script>
+    <!-- modal chat close -->
+
+
+</body>
+
+</html>
