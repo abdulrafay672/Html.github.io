@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // var table=parseInt(prompt("Enter table number: "))
+        // var t_range=parseInt(prompt("Enter table range: "))
+
+
+        for (a = 1; a <= 5; a++) {
+            for (b = 1; b <= a; b++) {
+                document.write("*");
+            }
+            document.write("<br>")
+        }
+        document.write("-----------------------------------------<br>");
+
+        for (a = 5; a >= 1; a--) {
+            for (b = 1; b <= a; b++) {
+                document.write("*");
+            }
+            document.write("<br>")
+        }
+
+        document.write("-----------------------------------------<br>");
+        star = ""
+        for (a = 1; a <= 5; a++) {
+            if (a % 2 == 0) {
+                star += "*"
+                document.write(star + a + "<br>")
+            } else {
+                star += "*"
+                document.write(a + star + "<br>")
+
+            }
+        }
+        document.write("-----------------------------------------<br>");
+
+        for (a = 1; a <= 12; a++) {
+            if (a <= 6) {
+                document.write("*<br>")
+            } else {
+                document.write("*")
+
+            }
+        }
+
+        // h
+        document.write("-----------------------------------------<br>");
+        document.write("<center>")
+        for (a = 1; a <= 4; a++) {
+            document.write("*")
+            for (b = 1; b <= 5; b++) {
+                document.write("&nbsp; &nbsp;")
+            }
+            document.write("*<br>")
+        }
+
+        for (a = 1; a <= 7; a++) {
+            document.write(" * ")
+        }
+        document.write("<br>")
+        for (a = 1; a <= 4; a++) {
+            document.write("*")
+            for (b = 1; b <= 5; b++) {
+                document.write("&nbsp; &nbsp;")
+            }
+            document.write("*<br>")
+        }
+
+
+
+        /*  
+        2-------------
+        *
+        **
+        ***
+        ****
+        *****
+        1------------------
+        1*
+        **2
+        3***
+        ****4
+        5*****
+        */
+    </script>
+</head>
+
+<body
+ </body>
+
+</html>

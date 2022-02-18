@@ -1,0 +1,132 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    background-color:whitesmoke;
+    color: blueviolet;;
+    font-weight: 700;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+ul li{
+    display: inline-block;
+    /* word-wrap:10%; */
+    margin: 5px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+label{
+    color: blueviolet;
+}
+.btn{
+    margin-left:50px;
+    height: 50px;
+    width: 120px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 10%;
+    border:1px solid black;
+    font-size: 15px;
+    color: blue;
+}
+.btn:hover{
+    /* padding: 20px; */
+    background-color: rgba(235, 53, 235, 0.589);
+    color:white;
+}
+span{
+    margin-left: 20px;
+}
+.bg_img{
+    margin-left: 10px;
+    background-image:url(./imges/Capture1.PNG);
+    width:99%; 
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-top: -70px;
+    /* background-origin: border-box; */
+
+}
+.main_div{
+    padding: 10px;
+    margin: 10px;
+}
+/* .main_div phone{
+    margin-left: 200px;
+} */
+.phone{
+    background-color: aqua;
+    width: 300px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: -99px;
+    margin-left: 250px;
+    display: inline-block;
+}
+.phone p{
+    margin-left: 60px;
+    margin-top: -50px;
+    /* display: inline-block; */
+}
+
+.phone legend{
+    font-size: 30px;
+    font-weight: 500;
+    /* display: inline; */
+    /* margin-top:90px; */
+}
+.dc{
+    background-color:blueviolet;
+    width: 300px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: -202px;
+    margin-left: 549px;
+    height: 200px;
+    /* display: inline-block; */
+}
+.dc p{
+    /* display: inline-block; */
+    margin-left: 60px;
+    margin-top: -50px;
+}
+
+.dc legend{
+    /* display: inline-block; */
+    font-size: 30px;
+    font-weight: 500;
+    /* margin-top:-200px; */
+}
+.opening_hourse{
+    background-color:rgb(71, 4, 133);
+    width: 300px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: -202px;
+    margin-left: 849px;
+    height: 200px;
+}
+.opening_hourse p{
+    /* display: inline-block; */
+    margin-left: 60px;
+    margin-top: -50px;
+}
+
+.opening_hourse legend{
+    /* display: inline-block; */
+    font-size: 30px;
+    font-weight: 500;
+    /* margin-top:-200px; */
+}
